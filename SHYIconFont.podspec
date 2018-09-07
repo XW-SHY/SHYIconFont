@@ -24,8 +24,9 @@ Pod::Spec.new do |s|
 Quickly apply iconfront  #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  #s.description  = <<-DESC
-  #                 DESC
+  s.description  = <<-DESC
+                       It is a icon manage tools used on iOS, which implement by Objective-C.
+                   DESC
 
   s.homepage     = "https://github.com/XW-SHY/SHYIconFont.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
