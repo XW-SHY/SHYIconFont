@@ -24,11 +24,13 @@ Pod::Spec.new do |s|
 Quickly apply iconfront  #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
+
   s.description  = <<-DESC
                        It is a icon manage tools used on iOS, which implement by Objective-C.
-                   DESC
+			DESC
 
   s.homepage     = "https://github.com/XW-SHY/SHYIconFont.git"
+ 
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -54,6 +56,7 @@ Quickly apply iconfront  #   * Try to keep it short, snappy and to the point.
   #
 
   s.author             = {"XW-SHY" => "zhanger223@163.com" }
+ 
   # Or just: s.author    = ""
   # s.authors            = { "" => "zhanger223@163.com" }
   # s.social_media_url   = "http://twitter.com/"
@@ -92,6 +95,7 @@ Quickly apply iconfront  #   * Try to keep it short, snappy and to the point.
   #
 
   s.source_files  = "SHYIconFont", "SHYIconFont/**/*.{h,m}"
+  
   #s.exclude_files = "SHYIconFont/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -106,6 +110,7 @@ Quickly apply iconfront  #   * Try to keep it short, snappy and to the point.
   #
 
   # s.resource  = "icon.png"
+
   s.resources = "SHYIconFont/SHYIconFont.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
