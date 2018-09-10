@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     	#   'RSTIconFont' => ['RSTIconFont/Assets/*.png']
    	# }
 
-  	s.resources    = "SHYIconFont.bundle"
+  	s.resources    = "SHYIconFont/SHYIconFont.bundle"
     	s.prefix_header_contents = '#import "SHYIconFont.h"', '#import "SHYIconInfo.h"', '#import "UIImage+SHYIconFont.h"'
   	s.requires_arc = true
 
