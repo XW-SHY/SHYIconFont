@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   	s.platform     = :ios, "8.0"
         s.ios.deployment_target = "8.0"
 	s.source       = { :git => "https://github.com/XW-SHY/SHYIconFont.git", :tag => s.version }
-  	s.source_files = "SHYIconFont", "SHYIconFont/**/*.{h,m}"
-  	s.resources    = "SHYIconFont/SHYIconFont.bundle"
+  	s.source_files = "SHYIconFont", "SHYIconFont/*.{h,m}"
+  	s.resources    = "SHYIconFont.bundle"
   	s.requires_arc = true
 
 end
