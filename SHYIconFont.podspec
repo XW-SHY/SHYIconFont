@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 	s.name         = "SHYIconFont"
-  	s.version      = "0.0.5"
+  	s.version      = "0.0.6"
   	s.summary      = "A icon resource management tool"
 	s.description  = <<-DESC
                        It is a icon manage tools used on iOS, which implement by 	Objective-C.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     	#   'RSTIconFont' => ['RSTIconFont/Assets/*.png']
    	# }
 
-  	s.resources    = "SHYIconFont.bundle"
+  	s.resources    = "SHYIconfont.bundle"
     	s.prefix_header_contents = '#import "SHYIconFont.h"', '#import "SHYIconInfo.h"', '#import "UIImage+SHYIconFont.h"'
   	s.requires_arc = true
 
